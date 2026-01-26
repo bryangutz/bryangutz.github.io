@@ -27,55 +27,47 @@ The main challenge lies in applying these rules simultaneously across the grid w
 
 The simulation is implemented using:
 
-Dynamic two-dimensional arrays to represent the game board
-
-Recursion to generate successive generations
-
-File I/O (ifstream / ofstream) to load initial configurations and store simulation history
-
-User-defined functions to ensure modularity and readability
-
-Careful memory management using new and delete (multi-block allocation)
+- Dynamic two-dimensional arrays to represent the game board
+- Recursion to generate successive generations
+- File I/O (ifstream / ofstream) to load initial configurations and store simulation history
+- User-defined functions to ensure modularity and readability
+- Careful memory management using new/delete (multi-block allocation)
 
 To guarantee correct rule application, each generation is computed using a temporary copy of the current board, ensuring that updates occur simultaneously rather than sequentially.
 
 ## Key Features
 
-Simulation of arbitrary initial configurations loaded from text files
-
-Support for multiple generations with user-controlled termination
-
-Persistent logging of generation states to an output file
-
-Clean separation between logic, visualization, and data handling
-
-Adjustable grid size through configurable constants
+- Simulation of arbitrary initial configurations loaded from text files
+- Support for multiple generations with user-controlled termination
+- Persistent logging of generation states to an output file
+- Clean separation between logic, visualization, and data handling
+- Adjustable grid size through configurable constants
 
 ## Results
 
 The program successfully reproduces well-known Game of Life behaviors, including:
 
-Stable configurations
+- Stable configurations
 
-Periodic oscillators (e.g., blinkers)
+- Periodic oscillators (e.g., blinkers)
 
-Moving patterns (e.g., spaceships)
+- Moving patterns (e.g., spaceships)
 
-Population extinction scenarios
+- Population extinction scenarios
 
 The use of dynamic memory allows flexible board sizes, while file-based inputs enable easy experimentation with new configurations.
 
 ## Technologies Used
 
-C++
+- C++
 
-Dynamic memory management
+- Dynamic memory management
 
-Recursion
+- Recursion
 
-File I/O
+- File I/O
 
-Algorithmic problem solving
+- Algorithmic problem solving
 
 ## Code
 
