@@ -122,9 +122,15 @@ layout: default
 
         <!-- RenderCV Sections - Merge Experience and Volunteer -->
   {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
-  {% assign exp = cv.sections.Experience | default: [] %}
-  {% assign vol = cv.sections.Volunteer | default: [] %}
-  {% assign combined_experience = exp | concat: vol %}
+        {%- if cv.sections.Experience and cv.sections.Volunteer -%}
+          {% assign combined_experience = cv.sections.Experience | concat: cv.sections.Volunteer %}
+        {%- elsif cv.sections.Experience -%}
+          {% assign combined_experience = cv.sections.Experience %}
+        {%- elsif cv.sections.Volunteer -%}
+          {% assign combined_experience = cv.sections.Volunteer %}
+        {%- else -%}
+          {% assign combined_experience = nil %}
+        {%- endif -%}
         {% if combined_experience.size > 0 %}
           <a class="anchor" id="experience"></a>
           <div class="card mt-3 p-3">
@@ -260,9 +266,15 @@ layout: default
         {% endif %}
 
   <!-- JSONResume Sections - Merge work and volunteer into Experience -->
-  {% assign work = site.data.resume.work | default: [] %}
-  {% assign vol_resume = site.data.resume.volunteer | default: [] %}
-  {% assign combined_experience = work | concat: vol_resume %}
+        {%- if site.data.resume.work and site.data.resume.volunteer -%}
+          {% assign combined_experience = site.data.resume.work | concat: site.data.resume.volunteer %}
+        {%- elsif site.data.resume.work -%}
+          {% assign combined_experience = site.data.resume.work %}
+        {%- elsif site.data.resume.volunteer -%}
+          {% assign combined_experience = site.data.resume.volunteer %}
+        {%- else -%}
+          {% assign combined_experience = nil %}
+        {%- endif -%}
         {% if combined_experience.size > 0 %}
           <a class="anchor" id="experience"></a>
           <div class="card mt-3 p-3">
