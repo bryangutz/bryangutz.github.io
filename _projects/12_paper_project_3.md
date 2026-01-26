@@ -17,11 +17,15 @@ This project consists of a full implementation of Conway’s Game of Life in C++
 The implementation allows users to load arbitrary initial configurations from text files, simulate successive generations, and observe emergent behaviors such as oscillators, spaceships, and extinction patterns.
 All aspects of the project — design, implementation, and documentation — were carried out independently.
 
+---
+
 ## Problem Description
 
 Conway’s Game of Life is a zero-player cellular automaton where the evolution of the system depends entirely on its initial configuration. Each cell evolves according to the number of live neighbors, following simple rules of survival, death, and birth.
 
 The main challenge lies in applying these rules simultaneously across the grid while preserving correctness and efficiency, especially when simulating multiple generations.
+
+---
 
 ## Technical Approach
 
@@ -35,6 +39,8 @@ The simulation is implemented using:
 
 To guarantee correct rule application, each generation is computed using a temporary copy of the current board, ensuring that updates occur simultaneously rather than sequentially.
 
+---
+
 ## Key Features
 
 - Simulation of arbitrary initial configurations loaded from text files
@@ -42,6 +48,8 @@ To guarantee correct rule application, each generation is computed using a tempo
 - Persistent logging of generation states to an output file
 - Clean separation between logic, visualization, and data handling
 - Adjustable grid size through configurable constants
+
+---
 
 ## Results
 
@@ -57,6 +65,8 @@ The program successfully reproduces well-known Game of Life behaviors, including
 
 The use of dynamic memory allows flexible board sizes, while file-based inputs enable easy experimentation with new configurations.
 
+---
+
 ## Technologies Used
 
 - C++
@@ -69,6 +79,8 @@ The use of dynamic memory allows flexible board sizes, while file-based inputs e
 
 - Algorithmic problem solving
 
+---
+
 ## Code
 
 <p>
@@ -77,6 +89,8 @@ The use of dynamic memory allows flexible board sizes, while file-based inputs e
   </a>
 </p>
 
+---
+
 ## Images
 
 <div class="row">
@@ -84,6 +98,8 @@ The use of dynamic memory allows flexible board sizes, while file-based inputs e
     {% include figure.liquid path="assets/img/life2.png" title="Figura 1" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
+
+---
 
 ## Download PDF
 

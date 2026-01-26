@@ -16,6 +16,7 @@ This project focuses on the experimental control of a nonlinear Van der Pol osci
 
 My primary contributions included the **assembly and validation of the electronic circuit modeling the oscillator**, as well as **collaborating in the design and implementation of the control strategy**, particularly in the experimental phase using a DAQ system.
 
+---
 
 ## Technical Overview
 
@@ -28,6 +29,8 @@ A PID controller was first designed in continuous time using classical control t
 
 The controller was implemented and executed in **LabVIEW**, interfaced with the physical plant via a **NI USB-6003 DAQ**.
 
+---
+
 ## My Contributions
 
 - **Electronic circuit assembly** of the Van der Pol oscillator using operational amplifiers (LM741) and analog multipliers (AD633)
@@ -35,6 +38,8 @@ The controller was implemented and executed in **LabVIEW**, interfaced with the 
 - Participation in the **design and tuning of the PID controller**, including stability analysis and performance objectives
 - Support in the **experimental implementation** of the discrete controller using LabVIEW and DAQ hardware
 - Analysis of experimental results, including steady-state error, overshoot, and settling time
+
+---
 
 ## Results
 
@@ -45,6 +50,8 @@ The controlled system achieved:
 
 Experimental measurements closely matched MATLAB/Simulink and LabVIEW simulations, validating both the controller design and the physical implementation.
 
+---
+
 ## Tools & Technologies
 
 - **Control & Simulation:** MATLAB, Simulink  
@@ -52,6 +59,7 @@ Experimental measurements closely matched MATLAB/Simulink and LabVIEW simulation
 - **Electronics:** Analog circuit design, operational amplifiers, nonlinear analog components  
 - **Control Methods:** PID control, system linearization, discrete-time control  
 
+---
 
 ## Images
 
@@ -63,6 +71,8 @@ Experimental measurements closely matched MATLAB/Simulink and LabVIEW simulation
     {% include figure.liquid path="assets/img/vdp5.jpg" title="Figura 2" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
+
+---
 
 ## Download PDF
 
