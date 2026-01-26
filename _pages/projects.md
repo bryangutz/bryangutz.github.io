@@ -11,7 +11,7 @@ horizontal: false
 
 <!-- pages/projects.md -->
 <div class="projects">
-{% assign showcase_projects = site.projects | where: "showcase", true %}
+{% assign showcase_projects = site.projects | where_exp: "p", "p.showcase" %}
 {% if showcase_projects.size > 0 %}
   <!-- If showcase projects exist, show them directly (no category grouping) -->
   {% assign sorted_projects = showcase_projects | sort: "importance" %}
