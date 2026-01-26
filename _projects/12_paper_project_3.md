@@ -77,13 +77,11 @@ File I/O
 
 Algorithmic problem solving
 
-## Código fuente (C++)
-
-Si quieres descargar el código fuente del proyecto, puedes hacerlo aquí:
+## Code (C++)
 
 <p>
-  <a class="btn btn-outline-primary" href="{{ "/assets/code/life.cpp" | relative_url }}" download>
-    <i class="fa-solid fa-file-code"></i> Descargar código C++ (life.cpp)
+  <a class="btn btn-outline-primary" href="{{"/assets/code/life.cpp"|relative_url }}" download>
+    <i class="fa-solid fa-file-code"></i> Download C++ code
   </a>
 </p>
 
@@ -96,7 +94,7 @@ Si quieres descargar el código fuente del proyecto, puedes hacerlo aquí:
 <div class="collapse" id="code-life">
   <div class="card card-body">
 ```cpp
-{% include_relative ../assets/code/life.cpp %}
+{% include code/life.cpp %}
 ```
   </div>
 </div>
