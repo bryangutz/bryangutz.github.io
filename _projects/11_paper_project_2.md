@@ -55,7 +55,6 @@ Experimental measurements closely matched MATLAB/Simulink and LabVIEW simulation
 
 ## Images
 
-{% raw %}
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/circuito_electronico.jpg" title="Figura 1" class="img-fluid rounded z-depth-1" %}
@@ -64,7 +63,6 @@ Experimental measurements closely matched MATLAB/Simulink and LabVIEW simulation
     {% include figure.liquid path="assets/img/vdp5.jpg" title="Figura 2" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-{% endraw %}
 
 ## Download PDF
 
