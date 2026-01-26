@@ -95,5 +95,3 @@ It provides students with hands-on exposure to technologies directly aligned wit
 <a class="btn btn-primary" href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-file-pdf"></i> Download PDF (Paper 1)
 </a>
-
----
