@@ -77,28 +77,13 @@ File I/O
 
 Algorithmic problem solving
 
-## Code (C++)
+## Code
 
 <p>
   <a class="btn btn-outline-primary" href="{{"/assets/code/life.cpp"|relative_url }}" download>
     <i class="fa-solid fa-file-code"></i> Download C++ code
   </a>
 </p>
-
-<p>
-  <a class="btn btn-sm btn-link" data-toggle="collapse" href="#code-life" role="button" aria-expanded="false" aria-controls="code-life">
-    Mostrar / Ocultar código fuente
-  </a>
-</p>
-
-<div class="collapse" id="code-life">
-  <div class="card card-body">
-```cpp
-{% include code/life.cpp %}
-```
-  </div>
-</div>
-
 
 ## Images
 
