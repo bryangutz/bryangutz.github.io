@@ -69,22 +69,6 @@ cv:
           - Client support, documentation, and Proofs of Concept
           - Exposure to large-scale infrastructure and consulting environments
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
         authors:
@@ -114,21 +98,12 @@ cv:
       - name: Programming & Data
         level: Intermediate
         icon: fa-solid fa-hashtag
-        keywords: 
-          - Python
-          - MATLAB
-          - C/C++
-          - Node-RED
+        keywords: "Python, C/C++, MATLAB"
 
       - name: Embedded & Control Systems
         level: Intermediate
         icon: fa-solid fa-hashtag
-        keywords: 
-          - Control theory
-          - System modeling
-          - Sensors
-          - Actuators
-          - IoT
+        keywords: "Arduino, Raspberry Pi, Microcontrollers, PID Control, Digital Signal Processing"
 
     Languages:
       - name: Spanish
