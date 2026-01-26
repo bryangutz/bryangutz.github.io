@@ -5,7 +5,6 @@ description: Design, implementation, and experimental validation of a discrete P
 img: assets/img/Van_der_pols_equation_phase.png
 importance: 2
 category: projects
-related_publications: true
 pdf: assets/pdf/Paper_Digital_4.pdf
 showcase: true
 ---

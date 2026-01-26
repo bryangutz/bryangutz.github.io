@@ -5,7 +5,6 @@ description: A complete C++ implementation of Conway’s Game of Life using dyna
 img: assets/img/life.png
 importance: 2
 category: projects
-related_publications: true
 pdf: assets/pdf/Life.pdf
 showcase: true
 ---

@@ -5,7 +5,6 @@ description: Design and integration of a robotic arm and conveyor belt using PLC
 img: assets/img/robot.jpg
 importance: 2
 category: projects
-related_publications: true
 pdf: assets/pdf/Paper_Proyecto_Mecatronico.pdf
 showcase: true
 ---
@@ -37,17 +36,17 @@ This work ensured precise positioning, repeatability, and seamless interaction b
 
 ## Technical Details
 
-### Robotic Arm Modeling
+<h3 class="h5">Robotic Arm Modeling</h3>
 - 6-DOF articulated robotic arm
 - Direct kinematics implemented to compute end-effector position (x, y, z) from joint angles
 - Real-time feedback of robot position for validation and educational visualization
 
-### Control & Software
+<h3 class="h5">Control & Software</h3>
 - Python-based control scripts developed using Thonny
 - Manual joint-level control with clear mapping between angles and Cartesian motion
 - Architecture designed to support future automation and closed-loop control
 
-### System Integration
+<h3 class="h5">System Integration</h3>
 - Robotic arm synchronized with conveyor belt operations
 - Communication with PLC and IoT layer through **Modbus TCP/IP**
 - Designed to operate within a semi-industrial educational environment
