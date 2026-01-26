@@ -59,7 +59,8 @@ cv:
     Experience:
       - company: FTI Consulting
         position: Junior Consultant – Construction, Projects & Assets
-        location: Lima, Peru
+        location: Houston, TX, USA (Remote)
+        url: https://www.fticonsulting.com/
         start_date: 2022
         end_date: 2025
         summary: Worked on project management and digital transformation initiatives
@@ -94,7 +95,7 @@ cv:
       - name: Technology for Real-World Impact
         icon: fa-solid fa-globe
         keywords: "Infrastructure, industry, public sector, defense-related technologies"
-        
+
       - name: Complex Systems & Control
         icon: fa-solid fa-diagram-project
         keywords: "Dynamic systems, feedback control, system identification, stability"
