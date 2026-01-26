@@ -70,7 +70,7 @@ It provides students with hands-on exposure to technologies directly aligned wit
 
 ---
 
-## Figuras
+## Images
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -81,20 +81,16 @@ It provides students with hands-on exposure to technologies directly aligned wit
   </div>
 </div>
 
-## Vídeo (opcional)
-
-Si tienes un vídeo, incrústalo aquí (YouTube/Vimeo). Ejemplo:
+## Video
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://youtu.be/elpPe1eIgIU" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/elpPe1eIgIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Descargar PDF
+## Download PDF
 
 <a class="btn btn-primary" href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">
-  <i class="fa-solid fa-file-pdf"></i> Descargar PDF (Paper 1)
+  <i class="fa-solid fa-file-pdf"></i> Download PDF (Paper 1)
 </a>
 
 ---
-
-Actualiza las rutas `assets/img/...` y `assets/pdf/...` con tus ficheros reales. Si quieres, puedo crear las imágenes vacías/placeholder por ti.
