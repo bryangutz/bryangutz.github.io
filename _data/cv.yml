@@ -114,12 +114,21 @@ cv:
       - name: Programming & Data
         level: Intermediate
         icon: fa-solid fa-hashtag
-        keywords: "Python, MATLAB, Node-RED"
+        keywords: 
+          - Python
+          - MATLAB
+          - C/C++
+          - Node-RED
 
       - name: Embedded & Control Systems
         level: Intermediate
         icon: fa-solid fa-hashtag
-        keywords: "Control theory, system modeling, sensors, actuators, IoT"
+        keywords: 
+          - Control theory
+          - System modeling
+          - Sensors
+          - Actuators
+          - IoT
 
     Languages:
       - name: Spanish
