@@ -39,7 +39,7 @@ cv:
         location: Lima, Peru
         url: https://portal.uni.edu.pe/
         area: Mechatronics Engineering
-        studyType: Bachelor
+        studyType: Bachelor of Science
         start_date: 2020
         end_date: 2024
         highlights:
@@ -50,7 +50,7 @@ cv:
         location: Lima, Peru
         url: https://www.cibertec.edu.pe/
         area: International Business
-        studyType: Associate Degree
+        studyType: Bachelor’s Degree
         start_date: 2015
         end_date: 2018
         highlights:
@@ -68,17 +68,6 @@ cv:
           - Configuration and deployment of EcoSys for project cost and schedule control
           - Client support, documentation, and Proofs of Concept
           - Exposure to large-scale infrastructure and consulting environments
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
 
     Awards:
       - title: Nobel Prize in Physics
@@ -122,10 +111,15 @@ cv:
         summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
 
     Skills:
-      - name: Physics
-        level: Master
+      - name: Programming & Data
+        level: Intermediate
         icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Python, MATLAB, Node-RED"
+
+      - name: Embedded & Control Systems
+        level: Intermediate
+        icon: fa-solid fa-hashtag
+        keywords: "Control theory, system modeling, sensors, actuators, IoT"
 
     Languages:
       - name: German
