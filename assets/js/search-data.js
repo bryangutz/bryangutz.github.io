@@ -402,19 +402,19 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-proyecto-paper-1-título-provisional",
-          title: 'Proyecto / Paper 1 — Título provisional',
-          description: "Breve descripción del primer paper/proyecto (actualiza esto).",
+          section: "News",},{id: "projects-cyber-physical-robotic-system-for-educational-automation",
+          title: 'Cyber-Physical Robotic System for Educational Automation',
+          description: "Design and integration of a robotic arm and conveyor belt using PLC, Modbus TCP/IP, and IoT for Industry 4.0 education.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_paper_project_1/";
-            },},{id: "projects-proyecto-paper-2-título-provisional",
-          title: 'Proyecto / Paper 2 — Título provisional',
-          description: "Breve descripción del segundo paper/proyecto (actualiza esto).",
+            },},{id: "projects-precision-control-of-a-van-der-pol-oscillator-experimental-implementation",
+          title: 'Precision Control of a Van der Pol Oscillator — Experimental Implementation',
+          description: "Design, implementation, and experimental validation of a discrete PID controller for a nonlinear Van der Pol oscillator using DAQ and LabVIEW.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_paper_project_2/";
-            },},{id: "projects-proyecto-paper-3-título-provisional",
-          title: 'Proyecto / Paper 3 — Título provisional',
-          description: "Breve descripción del tercer paper/proyecto (actualiza esto).",
+            },},{id: "projects-project-conway-s-game-of-life-c",
+          title: 'Project — Conway’s Game of Life (C++)',
+          description: "A complete C++ implementation of Conway’s Game of Life using dynamic memory, recursion, and file-based inputs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_paper_project_3/";
             },},{id: "projects-project-1",
@@ -492,13 +492,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
