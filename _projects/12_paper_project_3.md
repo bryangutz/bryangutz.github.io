@@ -78,7 +78,7 @@ File I/O
 Algorithmic problem solving
 
 
-## Figuras
+## Images
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -86,12 +86,8 @@ Algorithmic problem solving
   </div>
 </div>
 
-## Vídeo (opcional)
-
-Agrega aquí el vídeo si corresponde.
-
-## Descargar PDF
+## Download PDF
 
 <a class="btn btn-primary" href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">
-  <i class="fa-solid fa-file-pdf"></i> Descargar PDF (Paper 3)
+  <i class="fa-solid fa-file-pdf"></i> Download PDF (Paper 3)
 </a>

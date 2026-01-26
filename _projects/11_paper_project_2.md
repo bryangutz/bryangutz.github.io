@@ -53,7 +53,7 @@ Experimental measurements closely matched MATLAB/Simulink and LabVIEW simulation
 - **Control Methods:** PID control, system linearization, discrete-time control  
 
 
-## Figuras
+## Images
 
 {% raw %}
 <div class="row">
@@ -66,12 +66,8 @@ Experimental measurements closely matched MATLAB/Simulink and LabVIEW simulation
 </div>
 {% endraw %}
 
-## Vídeo (opcional)
-
-Incrusta un vídeo si lo tienes.
-
-## Descargar PDF
+## Download PDF
 
 <a class="btn btn-primary" href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">
-  <i class="fa-solid fa-file-pdf"></i> Descargar PDF (Paper 2)
+  <i class="fa-solid fa-file-pdf"></i> Download PDF (Paper 2)
 </a>
